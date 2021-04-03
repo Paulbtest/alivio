@@ -1,6 +1,7 @@
 /* Common properties */
 body {
     margin: 0;
+    width: 100%;
 }
 
 .wrapper {
@@ -45,6 +46,7 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
+    margin-top: 50px;
 }
 
 .btn {
@@ -143,12 +145,12 @@ header {
 }
 
 .presentation-container div:nth-child(5) {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .presentation-headings {
     max-width: 584px;
     margin-right: 135px;
-    margin-bottom: 50px;
+    margin-bottom: 85px;
 }
 
 .presentation-text {
@@ -159,12 +161,51 @@ header {
 }
 
 .presentation-card {
+    display: inline-block;
+    vertical-align: bottom;
     max-width: 390px;
-    height: 937px;
+    height: 780px;
+}
+
+.first-card {
+    background-image: url(../img/01.svg);
+    background-repeat: no-repeat;
+}
+
+.second-card {
+    background-image: url(../img/02.svg);
+    background-repeat: no-repeat;
+}
+
+.third-card {
+    background-image: url(../img/03.svg);
+    background-repeat: no-repeat;
+    max-width: 430px;
+}
+
+.first-card h4 {
+    text-align: center;
+}
+
+.second-card h4 {
+    text-align: right;
+}
+
+.third-card h4 {
+    margin-left: 120px;
+    margin-bottom: 30px;
 }
 
 .presentation-card-text {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin-bottom: 60px;
+}
+
+.second-card .presentation-card-text {
+    margin-bottom: 37px;
+}
+
+.third-card .presentation-card-text {
+    margin-bottom: 48px;
 }
