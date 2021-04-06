@@ -132,7 +132,6 @@ header {
     margin-top: 146px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .presentation-container {
@@ -219,7 +218,7 @@ header {
 .media {
     background-color: #245852;
     max-width: 100%;
-    height: 922px;
+    min-height: 922px;
     margin-top: 1px;
 }
 
@@ -275,12 +274,13 @@ header {
 
 /* Product explanation start */
 .product-explanation {
-    height: 936px;
+    min-height: 936px;
 }
 
 .explanation-flex-container {
     margin-top: 100px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-container {
@@ -346,3 +346,26 @@ header {
 
 /* Product explanation end */
 
+/* Footer start  */
+
+.footer {
+    background-color: #245852;
+    max-width: 100%;
+    min-height: 654px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-top: 95px;
+}
+
+.footer ul>li {
+    margin-bottom: 60px;
+}
+
+.footer a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
